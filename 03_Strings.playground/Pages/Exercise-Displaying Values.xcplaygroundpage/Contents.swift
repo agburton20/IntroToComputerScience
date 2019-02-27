@@ -1,32 +1,20 @@
 /*:
- ## Exercise: Good Names
+ ## Exercise: Displaying Values
  
- You’ve inherited some code from another programmer, who never had a chance to take the _App Development with Swift_ course. All you found was a note with the following written on it:
+ You may recall from an earlier playground an exercise that involved calculating the space remaining on an iPhone. You had the following information:
  
- > **Truck loading guide**
- >
- > Pallets of oranges weigh 100lbs
- >
- > Pallets of watermelons weigh 200lbs
- >
- > Have to load up the left then right of the truck and keep it as balanced. How many on each side? Melons always go together.
-*/
-let co = 14
-let cw = 3
-let ow = 100
-let ww = 200
-let to = co * ow
-let tw = cw * ww
-let ttl = to + tw
-let es = ttl / 2
-let lhso = es / ow
-let rhso = co - lhso
+ - The capacity of an iPhone is measured in gigabytes (GB). The iPhone in question has 8GB of storage.
+ - A gigabyte is about 1,000 megabytes (MB)
+ - The phone already has 3GB of stuff on it
+ - One minute of video takes 150MB of space
+ 
+ - callout(Exercise): Create a string that tells the user how many minutes of video they can store on the phone. You'll first need to perform the calculation steps, then use string interpolation to display the answer - which should look like this:
+ 
+ `You can record XXX more minutes of video.`
+ 
+ _Hint:_ Do all of your calculations in megabytes.
+ */
 
-
-//: - experiment: Rewrite the code so that it makes sense without needing a note. Use meaningful names and comments.
-//the weights on the right and left should be equal 
-let weightOnRight=S
-let weightOnLeft=S
 
 
 
@@ -42,4 +30,4 @@ let weightOnLeft=S
  
  _THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE._
  */
-//:[Previous](@previous)  |  page 14 of 14
+//:[Previous](@previous)  |  page 16 of 16

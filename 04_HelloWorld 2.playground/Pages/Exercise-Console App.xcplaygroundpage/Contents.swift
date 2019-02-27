@@ -1,37 +1,12 @@
 /*:
- ## Exercise: Good Names
+ ## Exercise: The Console App
  
- You’ve inherited some code from another programmer, who never had a chance to take the _App Development with Swift_ course. All you found was a note with the following written on it:
+ What kinds of messages can someone send to a console?
  
- > **Truck loading guide**
- >
- > Pallets of oranges weigh 100lbs
- >
- > Pallets of watermelons weigh 200lbs
- >
- > Have to load up the left then right of the truck and keep it as balanced. How many on each side? Melons always go together.
-*/
-let co = 14
-let cw = 3
-let ow = 100
-let ww = 200
-let to = co * ow
-let tw = cw * ww
-let ttl = to + tw
-let es = ttl / 2
-let lhso = es / ow
-let rhso = co - lhso
-
-
-//: - experiment: Rewrite the code so that it makes sense without needing a note. Use meaningful names and comments.
-//the weights on the right and left should be equal 
-let weightOnRight=S
-let weightOnLeft=S
-
-
-
-
-
+ You can peek at some of the messages other programmers decided to print on your Mac by opening Finder and going to Applications > Utilities > Console. You'll see a stream of text that looks like mostly nonsense. These are private messages among developers — who usually use in-group sayings that only people very familiar with each app will understand.
+ 
+ Watch some messages scroll by, then go ahead and quit the Console app.
+ */
 /*:
  
  _Copyright © 2017 Apple Inc._
@@ -42,4 +17,4 @@ let weightOnLeft=S
  
  _THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE._
  */
-//:[Previous](@previous)  |  page 14 of 14
+//: [Previous](@previous)  |  page 11 of 11
